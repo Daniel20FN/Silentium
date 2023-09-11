@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -146,9 +147,10 @@ ul {
     font-size: 17px;
 }
 
-b{
-    color: #000000;
-    text-shadow: 0 0 5px #ffffff, 0 0 30px #ffffff;
+.textShadow{
+    color: #ffffff;
+    -webkit-text-stroke: 1px white;
+    /*text-shadow: 0 0 5px #ffffff, 0 0 30px #ffffff;*/
 }
 
 /*Responsive para telefono del texto de los Slide*/
@@ -445,4 +447,13 @@ footer div{
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+}
+footer div a:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+@media (max-width: 768px) {
+    footer div a{
+        
+    }
 }
