@@ -168,9 +168,9 @@ ul {
 
 /*Separacion de secciones*/
 
-#startSection{
+/*#startSection{
     margin-bottom: calc(100vh - 815px);
-}
+}*/
 
 /*Seggunda seccion. Ropa de Cama*/
 
@@ -451,9 +451,4 @@ footer div{
 footer div a:hover{
     transform: scale(1.1);
     transition: 1.5s;
-}
-@media (max-width: 768px) {
-    footer div a{
-        
-    }
 }
