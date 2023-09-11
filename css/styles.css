@@ -164,7 +164,7 @@ b{
     }
 }
 
-/*Separacionde secciones*/
+/*Separacion de secciones*/
 
 #startSection{
     margin-bottom: calc(100vh - 815px);
@@ -177,7 +177,7 @@ b{
     font-size: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #001e3b;
-    text-shadow: 0 0 1px #ffffff, 0 0 10px #000000;
+    /*text-shadow: 0 0 1px #ffffff, 0 0 10px #000000;*/
     margin-bottom: 50px;
 }
 
@@ -200,7 +200,7 @@ b{
 #titleNuestraSeleccion{
     color: #001e3b;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 0 0 1px #ffffff, 0 0 5px #000000;
+    /*text-shadow: 0 0 1px #ffffff, 0 0 5px #000000;*/
     margin-left: 170px;
     margin-bottom: 20px;
 }
@@ -210,7 +210,28 @@ b{
     }
 }
 /*Estilos Carrusel 1*/
-
+h4, small {
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.carrusel h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    line-height: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f0f0f0;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+    padding: 15px;
+}
+.carrusel h4 small{
+    font-size: 15px;
+    display: block;
+    
+}
 .carrusel{
     width: 100%;
     margin: 0px 0px;
@@ -317,7 +338,7 @@ b{
 #titlePersonalizados{
     color: #001e3b;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 0 0 1px #ffffff, 0 0 5px #000000;
+    /*text-shadow: 0 0 1px #ffffff, 0 0 5px #000000;*/
     margin-left: 170px;
     margin-bottom: 20px;
     margin-top: 100px;
@@ -393,6 +414,7 @@ b{
 
 #cobijasSection{
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 #Cobijas{
@@ -400,6 +422,27 @@ b{
     font-size: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #001e3b;
-    text-shadow: 0 0 1px #ffffff, 0 0 10px #000000;
+    /*text-shadow: 0 0 1px #ffffff, 0 0 10px #000000;*/
     margin-bottom: 50px;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001e3b;
+}
+footer p{
+    flex: 1 0 100%;
+    text-align: center;
+    color: white;
+}
+footer div{
+    flex: 1 0 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
 }
