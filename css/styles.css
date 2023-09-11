@@ -152,7 +152,9 @@ ul {
     -webkit-text-stroke: 1px white;
     /*text-shadow: 0 0 5px #ffffff, 0 0 30px #ffffff;*/
 }
-
+.sliderFix{
+    left: 10%;
+}
 /*Responsive para telefono del texto de los Slide*/
 
 @media (max-width: 697px) {
@@ -168,9 +170,9 @@ ul {
 
 /*Separacion de secciones*/
 
-/*#startSection{
-    margin-bottom: calc(100vh - 815px);
-}*/
+#startSection{
+    margin-bottom: 200px;
+}
 
 /*Seggunda seccion. Ropa de Cama*/
 
