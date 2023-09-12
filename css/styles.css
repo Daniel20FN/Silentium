@@ -494,7 +494,7 @@ footer div a:hover{
 /*Texto de Quienes Somos*/
 
 .generalText{
-    width: 80%;
+    width: 70%;
     margin: 100px auto;
 
 }
@@ -516,6 +516,30 @@ footer div a:hover{
         font-size: 30px;
     }
     .textWhy p{
-        font-size: 15px;
+        font-size: 16px;
     }
+}
+.productColombiano{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.textProduct h2{
+    margin-bottom: 20px;
+    color: #001e3b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+.textProduct{
+    flex: 1 0 50%;
+    text-align: start;
+    padding: 0px 80px;
+}
+.imgProduct{
+    flex: 1 0 40%;
+}
+.imgProduct img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
