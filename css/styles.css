@@ -520,6 +520,7 @@ footer div a:hover{
     }
 }
 .productColombiano{
+    margin: 100px 0px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -530,9 +531,10 @@ footer div a:hover{
     margin-bottom: 20px;
 }
 .textProduct{
-    flex: 9 0 50%;
+    flex: 9 0 60%;
     text-align: start;
     padding: 0px 80px;
+    font-family:'Courier New', Courier, monospace;
 }
 .imgProduct{
     flex: 1 0 40%;
@@ -557,4 +559,11 @@ footer div a:hover{
         text-align: center;
         padding: 10px 0px;
     }
+}
+
+.detrasDelHilo{
+    margin: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
