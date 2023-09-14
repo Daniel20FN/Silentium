@@ -112,7 +112,7 @@ ul {
     margin-top: 0px;*/
 }
 
-@media (max-width: 906px) {
+@media (max-width: 768px) {
 
     /*Cuando cumpla la condicion desapacere el nav principal con display none y aparece el menu hamburuesa*/
     .menu div {
