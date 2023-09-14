@@ -567,3 +567,7 @@ footer div a:hover{
     flex-wrap: wrap;
     align-items: center;
 }
+
+hr{
+    color: black;
+}
