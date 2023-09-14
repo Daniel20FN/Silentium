@@ -571,3 +571,36 @@ footer div a:hover{
 hr{
     color: black;
 }
+
+
+/**********************************************************************************************************************/
+/*********************************** Estilos Pagina Contacto.html *****************************************************/
+
+
+.contact{
+    text-align: center;
+}
+.contact h1{
+    margin: 25px 0px 80px 0px;
+    font-size: 60px;
+    color: #001e3b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact h2{
+    font-size: 30px;
+    color: #001e3b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.imgContactoLogo{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:768px) {
+    .imgContactoLogo img{
+        width: 300px;
+    }
+}
