@@ -152,9 +152,6 @@ ul {
     -webkit-text-stroke: 1px white;
     /*text-shadow: 0 0 5px #ffffff, 0 0 30px #ffffff;*/
 }
-.sliderFix{
-    left: 10%;
-}
 /*Responsive para telefono del texto de los Slide*/
 
 @media (max-width: 697px) {
